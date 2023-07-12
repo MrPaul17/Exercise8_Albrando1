@@ -1,0 +1,197 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    }
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgb(0 0 0 / 10%)), url(background.jpg);
+    width: 100%; height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cover-section{
+    text-align: center;
+    color: white;
+}
+.navbar{
+    width: 85%;
+    padding-top: 0%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.oplogo{
+    margin-top: 30px; width: 200px;
+    cursor: pointer;  
+}
+.navbar ul li{
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+     display: inline-block;
+     margin: 0 20px;
+     justify-content: space-evenly;
+}
+.navbar ul li a{
+    text-decoration: none;
+    border: solid white 2px;
+    border-radius: 25px;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+}
+.navbar a:hover{
+    background: rgba(255, 255, 255, 0.473);
+    transition: 0.5s;
+    cursor: pointer;
+}
+h1, p, ul{
+    color: white;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 3px;
+}
+button{
+    text-align: center;
+    background: none;
+    border:solid white 3px;
+    border-radius: 25px;
+    font-family: 'Rock Salt';
+    text-decoration: none;color: white;text-transform: uppercase; font-size: bold;
+    padding: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.cover-section a{
+    text-decoration: none;
+}
+.cover-section button{
+    background: none;
+    border:solid white 3px;
+    border-radius: 25px;
+    font-family: 'Rock Salt';
+    text-decoration: none;color: white;text-transform: uppercase; font-size: bold;
+    padding: 15px;
+    letter-spacing: 3px;
+}
+.cover-section button:hover{
+    background: rgba(255, 255, 255, 0.473);
+    color: green;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.element-1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+#content-container{
+    display: inline-block;
+}
+.element-1{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.element-2{
+    float: right;
+    width: 50%;
+}
+.element-2-content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: solid white 2px;
+    font-size: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    border-left: none;
+    border-right: none;
+}
+#content-container-2{
+    display: inline-block;
+}
+.element-3{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.element-4{
+    float: left;
+    width: 50%;
+}
+.element-4-content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: solid white 2px;
+    font-size: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    border-left: none;
+    border-right: none;
+}
+li, dd{
+    list-style: none;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 3px;  
+}
+.contact-us{
+    text-align: center;
+    padding-bottom: 20%;
+}
+a{
+    color: white;
+}
+.element-5-content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: solid white 2px;
+    font-size: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    border-left: none;
+    border-right: none;
+}
+.contact-us-icon a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
